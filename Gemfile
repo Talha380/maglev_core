@@ -6,7 +6,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Declare your gem's dependencies in maglev.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
-gemspec
 
 gem 'rails', '~> 8.0.2'
 
@@ -33,6 +32,11 @@ gem 'puma'
 # Use SQLite/PostgreSQL for development and test
 gem 'pg', '~> 1.5.9'
 gem 'sqlite3'
+gem 'kaminari', '~> 1.2.1'
+gem 'maglev-injectable', '~> 2.1.1'
+gem 'vite_rails', '< 4', '>= 3'
+gem 'vite_ruby', '>= 3.5'
+gem 'jbuilder', '< 3', '>= 2'
 
 # Gems no longer be part of the default gems from Ruby 3.5.0
 gem 'observer'
