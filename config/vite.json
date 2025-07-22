@@ -13,5 +13,9 @@
     "autoBuild": true,
     "publicOutputDir": "maglev-assets-test",
     "port": 3137
+  },
+  "production": {
+    "autoBuild": true,
+    "publicOutputDir": "maglev-assets"
   }
 }
