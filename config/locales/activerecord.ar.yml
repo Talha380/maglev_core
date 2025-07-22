@@ -1,0 +1,13 @@
+ar:
+  activerecord:
+    attributes:
+      'maglev/page':
+        cloned_title: "%{title} نسخة"
+      'maglev/page/paths':
+        value: المسار
+    errors:
+      models:
+        maglev/page_path:
+          attributes:
+            value:
+              invalid_path: "ليس مسارًا صالحًا"

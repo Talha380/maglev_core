@@ -1,0 +1,25 @@
+name: Jumbotron
+
+category: headers
+
+settings:
+- label: "Title"
+  id: title
+  type: text
+  default: "Title"
+
+- label: "Body"
+  id: body
+  type: text
+  html: true
+  line_break: true
+  default: "Body"
+
+- label: "Background Color"
+  id: background_color
+  type: color
+  default: "#ffffff"
+  
+blocks: []
+
+# blocks_label: "My list of items"
