@@ -34,7 +34,7 @@ module Maglev
         c.back_action = nil
         c.services = {}
         c.default_site_locales = [{ label: 'English', prefix: 'en' }]
-        c.is_authenticated = ->(_site) { !Rails.env.production? }
+        c.is_authenticated = ->(_site) { true }
         c.admin_username = nil
         c.admin_password = nil
         c.static_pages = []
